@@ -1,0 +1,98 @@
+.item {
+    height: 18rem;
+    min-width: 20rem;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* .item:hover {
+    filter: brightness(70%)
+} */
+.item img {
+    width: 96%;
+    height: 98%;
+    /* border-radius: 2rem; */
+    pointer-events: none;
+    position: absolute;
+    border: 1px solid #e3e3e3;
+
+    /* -webkit-box-shadow: 2px 3px 15px 17px rgba(235,235,235,1);
+-moz-box-shadow: 2px 3px 15px 17px rgba(235,235,235,1);
+box-shadow: 2px 3px 15px 17px rgba(235,235,235,1); */
+    /* border: 1px solid black; */
+}
+.inner-carousel {
+    display: flex;
+    /* background: lightblue; */
+}
+.carousel {
+    cursor: pointer;
+    overflow-x: scroll;
+    overflow-y: clip;
+    /* overflow: hidden; */
+    /* background-color: rgb(209, 171, 99); */
+    height: 312px;
+    margin-left: 22px;
+    margin-right: 56px;
+}
+
+.App {
+    overflow-x: hidden;
+}
+.titulo-slider {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 3rem;
+    /* text-align: center; */
+    margin-left: 5rem;
+    /* margin-top: -0.5rem; */
+    margin-bottom: 4rem;
+    height: 56px;
+}
+.separador-slider {
+    width: 60%;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    display: none;
+}
+
+.titulos-proyectos {
+    position: relative;
+    bottom: -7rem;
+    left: 0rem;
+    font-weight: 300;
+    width: 92%;
+    background-color: #0c0c0cad;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    padding-left: 13px;
+    font-size: 22px;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* .inner-carousel::after {
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    height: 100%;
+    position: absolute;
+    width: 1%;
+    content: '';
+    /* z-index: 2; */
+
+/* .inner-carousel::before{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    height: 100%;
+    position: absolute;
+    width: 1%;
+    content: '';
+} */ 

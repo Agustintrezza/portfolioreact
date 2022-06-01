@@ -1,0 +1,180 @@
+.wrapper {
+    /* height: 100vh;
+    width: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 75px;
+    height: 27rem;
+}
+.accordion {
+    width: 90%;
+    display: grid;
+    /* grid-template-columns: 33% 33% 33%; */
+    /* grid-template-columns: 50% 50%; */
+}
+.item1 {
+    background: white;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    border: 1px solid;
+    /* border-radius: 3px; */
+    border: 1px solid #64c5e6;
+}
+.title {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+.content {
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px);
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+.content.show {
+    height: auto;
+    max-height: 9999px;
+    /* transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px); */
+    text-align: center;
+    font-weight: 300;
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+.accordion2 {
+    width: 90%;
+    display: grid;
+    /* grid-template-columns: 33% 33% 33%; */
+    /* grid-template-columns: 50% 50%; */
+}
+.item2 {
+    background: white;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    border: 1px solid;
+    /* border-radius: 3px; */
+    border: 1px solid #64c5e6;
+}
+.title2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+.content2 {
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px);
+    text-align: center;
+    font-weight: 300;
+}
+.content2.show2 {
+    height: auto;
+    max-height: 9999px;
+    transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px);
+    text-align: center;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.accordion3 {
+    width: 90%;
+    display: grid;
+    /* grid-template-columns: 33% 33% 33%; */
+    /* grid-template-columns: 50% 50%; */
+}
+.item3 {
+    background: white;
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    border: 1px solid;
+    /* border-radius: 3px; */
+    border: 1px solid #64c5e6;
+}
+.item4 {
+    background: white;
+    margin-top: -5px;
+    padding: 10px 5px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    border: 1px solid;
+    /* border-radius: 3px; */
+    border: 1px solid #64c5e6;
+    background-color: #898989;
+    border-radius: 10px;
+}
+.title4{
+    color: #64c5e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.title3 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content3 {
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px);
+    text-align: center;
+    font-weight: 300;
+}
+.content3.show3 {
+    height: auto;
+    max-height: 9999px;
+    transition: all 1s cubic-bezier(0,1,0,1);
+    transform: translateX(0px) translateY(-2px) scale(0.9) translateZ(2px);
+    text-align: center;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.boton-certificado {
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 40px;
+    width: 85px;
+    border-radius: 8px;
+    border: 1px solid #24a8d2;
+    font-size: 16px;
+    color: #252525;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.alinear-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}

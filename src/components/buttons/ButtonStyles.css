@@ -1,0 +1,110 @@
+/* .switch {
+    display: flex;
+    width: 93%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    margin: auto;
+    column-gap: 10px;
+} */
+#light .switch label {
+    color: #1976d2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#dark .switch label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#dark .react-switch-bg {
+    background-color: #1976d2!important;
+}
+.contenedor-botonera {
+    background-color: #ffffff9c;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 54px;
+    width: 69px;
+    height: 233px;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
+    z-index: 1;
+}
+
+.botonera {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 164px;
+    left: 0px;
+    width: 46px;
+    height: 245px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border: 1px solid #64c5e6;
+    row-gap: 0px;
+    z-index: 1;
+    background-color: #ffffff75;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
+    /* transition: all ease-in-out 1s; */
+    transition: ease-in-out .1s;
+
+    
+}
+/* .botonera:hover {
+    cursor: grabbing;
+} */
+svg {
+    font-size: 29px;
+    cursor: pointer;
+    color: #404040;
+    /* margin-left: 9px;
+    margin-bottom: 8px; */
+}
+#dark svg {
+    color: white;
+}
+.fa-sun {
+    background: url('../../assets/logos/sun.svg') no-repeat;
+    background-size: cover;
+    width: 31px;
+    height: 31px;
+    margin-bottom: 1px;
+    filter: invert(100%);
+    color: white !important;
+    margin-bottom: 5px;
+}
+.fa-moon {
+    background: url('../../assets/logos/moon.svg') no-repeat;
+    background-size: cover;
+    width: 33px;
+    height: 34px;
+    margin-bottom: 5px;
+    filter: opacity(0.7);
+}
+ul {
+    display: flex;
+    padding-left: 0rem!important;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.logos {
+    color: black;
+}
+a {
+    color: #4bbce2;
+    font-size: 17px;
+}
+.logouser {
+    font-size: 30px
+}

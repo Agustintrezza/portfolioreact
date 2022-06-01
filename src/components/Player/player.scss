@@ -1,0 +1,106 @@
+.player_container
+{
+    width: 25%;
+    height: 58px;
+    padding: 5px 30px;
+    border: 1px solid rgb(141, 141, 141);
+    // border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(218, 218, 218);
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffffdb;
+    position: fixed;
+    top: 0px;
+    right: 100px;
+    z-index: 30;
+    border: 1px solid #64c5e6;
+    // transition: ease-in-out .1s;
+    >*
+    {
+        // padding: 1rem 0;
+        color: rgb(202, 202, 202);
+    }
+
+    .title{
+        font-size: inherit;
+    }
+    .navigation{
+        width: 100%;
+
+
+        .navigation_wrapper
+        {
+            width: 100%;
+            background-color: rgba(119, 119, 119, 0.781);
+            height: 5px;
+            border-radius: 30px;
+            cursor: pointer;
+            
+            .seek_bar{
+                width: 0;
+                height: 100%;
+                background-color: #64c5e6;
+                border-radius: 30px;
+            }
+
+        }
+    }
+    .controls{
+        font-size: inherit;
+        display: flex;
+        align-items: center;
+
+        .btn_action
+        {
+            font-size: 28px;
+            margin: 0 9px;
+            cursor: pointer;
+
+            &:hover{
+            color: black;
+        }
+
+        }
+        
+        .pp
+        {
+            font-size: 39px;
+            
+        }
+        
+    }
+    p {
+        font-size: 14px;
+        color: #5d5d5d;
+        margin-bottom: 1px;
+        margin-bottom: 4px;
+        margin-top: 0;
+    }
+}
+.player_container-pasive {
+    width: 55%;
+    padding: 1rem;
+    border: 1px solid rgb(141, 141, 141);
+    // border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: rgb(218, 218, 218);
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top: -100px;
+    right: 0px;
+    z-index: 30;
+    border: 1px solid #64c5e6;
+    
+}
+.separador {
+    row-gap: 5px;
+}

@@ -1,0 +1,79 @@
+.titulo {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 43px;
+    margin-bottom: 2px;
+}
+.subtitulo {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 0px;
+}
+.contenedor-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
+}
+.navitem {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 18px;
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    transition: all ease-in-out .3s;
+}
+.navitem:hover {
+    color: #1EAEDB;
+    font-weight: 200;
+    font-size: 16px;
+}
+.contenedor-nav {
+    column-gap: 3px;
+    display: flex;
+}
+li {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.cursos-cv {
+    width: 137px;
+}
+.switch {
+    display: flex;
+    width: 93%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    margin: auto;
+    column-gap: 10px;
+}
+#light .switch label {
+    color: #1976d2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#dark .switch label {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+#dark .react-switch-bg {
+    background-color: #1976d2!important;
+}
+.junior {
+    color: #1EAEDB;
+    font-weight: 200;
+}

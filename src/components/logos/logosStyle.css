@@ -1,0 +1,85 @@
+.slider {
+    height: 222px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 85%;
+    place-items: center;
+    margin-top: 4rem;
+    height: 147px;
+    
+}
+.slide-track  {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    animation: scroll 30s linear infinite
+    /* transform: translate(0, -50%); */
+}
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slide {
+    height: 110px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    justify-content: center;
+}
+img {
+    width: 28%;
+    transition: transform 1s;
+    /* filter: invert(1); */
+}
+
+img:hover {
+    transform: translateZ(20px);
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right,  #000000, rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slider::before {
+    background: linear-gradient(to right,  #000000, rgba(255,255,255,0) 100%);
+    left: 0;
+    top: 0;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.loguito1 {
+    perspective: 100px;
+    font-size: 50px;
+    width: 28%;
+    transition: transform 1s;
+    color: white;
+}
+.loguito1:hover {
+    transform: scale(125%);
+}
+.macro {
+    background-color: black;
+}
+.loguito {
+    filter: invert(100%);
+}
